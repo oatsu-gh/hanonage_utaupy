@@ -1,0 +1,5 @@
+type=editplugin
+folder=hanonage_utaupy
+contentsdir=hanonage_utaupy
+description=自作ライブラリ「utaupy」をつかった半音上げプラグインです。
+

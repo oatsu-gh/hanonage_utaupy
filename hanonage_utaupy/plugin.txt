@@ -1,0 +1,3 @@
+name=”¼‰¹ã‚°ƒvƒ‰ƒOƒCƒ“utaupy”Å
+execute=hanonage_utaupy.py
+shell=use
