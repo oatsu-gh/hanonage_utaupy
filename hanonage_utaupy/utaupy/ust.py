@@ -123,22 +123,22 @@ class Ust:
         self._notes = l
         return self
 
-    # @property
-    # def musicalnotes(self):
-    #     """
-    #     全セクションのうち、VERSION と SETTING TRACKEND を除いたノート部分を取得
-    #     """
-    #     return self._notes[2:-1]
-    #
-    # @musicalnotes.setter
-    # def musicalnotes(self, l):
-    #     """
-    #     全セクションのうち、VERSION と SETTING TRACKEND を除いたノート部分を上書き
-    #     """
-    #     if not isinstance(l, list):
-    #         raise TypeError('argument \"l\" must be list instance')
-    #     self._notes = self._notes[:2] + l + self._notes[-1:]
-    #     return self
+    @property
+    def notes(self):
+        """
+        全セクションのうち、VERSION と SETTING TRACKEND を除いたノート部分を取得
+        """
+        return self._notes[2:-1]
+
+    @notes.setter
+    def notes(self, l):
+        """
+        全セクションのうち、VERSION と SETTING TRACKEND を除いたノート部分を上書き
+        """
+        if not isinstance(l, list):
+            raise TypeError('argument \"l\" must be list instance')
+        self._notes = self._notes[:2] + l + self._notes[-1:]
+        return self
 
     @property
     def tempo(self):

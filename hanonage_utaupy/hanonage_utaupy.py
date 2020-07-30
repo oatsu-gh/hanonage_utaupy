@@ -26,14 +26,8 @@ def main():
     """
     パスの取得とファイル入出力
     """
-    # UTAUから出力されるプラグインスクリプトのパスを取得
-    path = sys.argv[1]
-    # up.utauplugin.Plugin オブジェクトとしてプラグインスクリプトを読み取る
-    plugin = up.utauplugin.load(path)
-    # 半音上げを実行
-    notenum_plus1(plugin)
-    # プラグインスクリプトを上書き
-    plugin.write(path)
+    # run() に渡すのを notenum_plus1() としないように注意
+    up.utauplugin.run(notenum_plus1)
 
 
 if __name__ == '__main__':
