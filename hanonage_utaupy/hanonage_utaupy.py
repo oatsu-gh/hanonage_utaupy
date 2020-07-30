@@ -31,5 +31,5 @@ def main():
 
 
 if __name__ == '__main__':
-    print('_____ξ・ヮ・) < hanonage_utaupy v1.0.0 ________')
+    print('_____ξ・ヮ・) < hanonage_utaupy v1.1.0 ________')
     main()
