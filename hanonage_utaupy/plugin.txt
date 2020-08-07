@@ -1,3 +1,3 @@
-name=åŠéŸ³ä¸Šã’ãƒ—ãƒ©ã‚°ã‚¤ãƒ³utaupyç‰ˆ
+name=”¼‰¹ã‚°ƒvƒ‰ƒOƒCƒ“utaupy”Å
 execute=hanonage_utaupy.py
 shell=use
