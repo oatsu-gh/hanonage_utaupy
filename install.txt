@@ -1,4 +1,4 @@
 type=editplugin
 folder=hanonage_utaupy
 contentsdir=hanonage_utaupy
-description=閾ｪ菴懊Λ繧､繝悶Λ繝ｪ縲蛍taupy縲阪ｒ縺､縺九▲縺溷濠髻ｳ荳翫￡繝励Λ繧ｰ繧､繝ｳ縺ｧ縺吶�
+description=自作ライブラリ「utaupy」をつかった半音上げプラグインです。
