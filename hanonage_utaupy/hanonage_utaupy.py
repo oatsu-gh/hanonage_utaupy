@@ -23,6 +23,6 @@ def notenum_plus1(plugin: up.utauplugin.UtauPlugin):
 
 
 if __name__ == '__main__':
-    print('_____ξ・ヮ・) < hanonage_utaupy v1.3.2 ________')
+    print('_____ξ・ヮ・) < hanonage_utaupy v1.3.1 ________')
     # run() に渡すのを notenum_plus1() としないように注意
     up.utauplugin.run(notenum_plus1)
